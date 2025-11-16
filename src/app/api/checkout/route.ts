@@ -244,11 +244,11 @@ export async function POST(request: Request) {
 
     // ----------------------------------------------------------------
 
-    console.log('Đang gửi email thật cho khách hàng:', email);
+    console.log('Đang gửi email cho khách hàng:', email);
 
     await resend.emails.send({
 
-      from: 'Tên Shop Của Bạn <donhang@grocery4everybody.id.vn>',
+      from: 'Thập Cẩm Store <donhang@grocery4everybody.id.vn>',
 
       to: [email], 
 
