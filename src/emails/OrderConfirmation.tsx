@@ -62,14 +62,14 @@ export const OrderConfirmationEmail: React.FC<EmailProps> = ({
             <strong>#{orderId}</strong> của bạn đã được tiếp nhận và đang được xử lý.
           </Text>
 
-          {/* CTA Button */}
+          {/* CTA Button
           <Section style={buttonContainer}>
             <Button style={button} href={`https://thap-cam-store.vercel.app/cart/order-success`}>
               Xem đơn hàng của tôi
             </Button>
           </Section>
 
-          <Hr style={hr} />
+          <Hr style={hr} /> */}
 
           {/* Order Details */}
           <Heading as="h2" style={subHeading}>
