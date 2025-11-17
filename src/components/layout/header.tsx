@@ -36,7 +36,7 @@ export default async function Header() {
           href="/"
           className="text-red-700 text-2xl md:text-3xl lg:text-4xl italic font-bold hover:text-red-600 transition-colors shrink-0"
         >
-          ThapCamStore
+          Hoang Anh -  Vu - Thanh
         </Link>
 
         {/* Desktop Navigation */}
