@@ -22,7 +22,8 @@ export default function Homepage(props: { data: any }) {
           {/* Left Content */}
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
-              Ở đây bán mọi thứ bạn cần... mà chúng tôi chưa chắc đã có
+              Ở đây bán thứ bạn cần... 
+              mà chúng tôi chưa chắc đã có
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl">{shopSubtitle}</p>
 
